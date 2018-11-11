@@ -13,23 +13,23 @@ You can contribute by sending pull requests, create issues with suggestions or w
 Table of Contents
 =================
 
- * [Initial Access](#-initial-access)
- * [Execution](#-execution)
- * [Persistence](#-persistence)
- * [Privilege Escalation](#-privilege-escalation)
- * [Defense Evasion](#-defense-evasion)
- * [Credential Access](#-credential-access)
- * [Discovery](#-discovery)
- * [Lateral Movement](#-lateral-movement)
- * [Collection](#-collection)
- * [Exfiltration](#-exfiltration)
- * [Command and Control](#-command-and-control)
- 
- * [Misc](#-misc)
- * [Gitbooks](#-gitbooks)
- * [Ebooks](#-ebooks)
- * [Defense](#-defense)
- * [Twitter](#-twitter)
+* [Initial Access](#-initial-access)
+* [Execution](#-execution)
+* [Persistence](#-persistence)
+* [Privilege Escalation](#-privilege-escalation)
+* [Defense Evasion](#-defense-evasion)
+* [Credential Access](#-credential-access)
+* [Discovery](#-discovery)
+* [Lateral Movement](#-lateral-movement)
+* [Collection](#-collection)
+* [Exfiltration](#-exfiltration)
+* [Command and Control](#-command-and-control)
+--- 
+* [Misc](#-misc)
+* [Gitbooks](#-gitbooks)
+* [Ebooks](#-ebooks)
+* [Defense](#-defense)
+* [Twitter](#-twitter)
 
 ## [↑](#table-of-contents) Initial Access
 ### T1203 - Exploitation for Client Execution
