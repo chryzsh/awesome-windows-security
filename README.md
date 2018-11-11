@@ -24,14 +24,12 @@ Table of Contents
  * [Collection](#-collection)
  * [Exfiltration](#-exfiltration)
  * [Command and Control](#-command-and-control)
----
+ 
  * [Misc](#-misc)
  * [Gitbooks](#-gitbooks)
  * [Ebooks](#-ebooks)
  * [Defense](#-defense)
  * [Twitter](#-twitter)
- 
-* []()
 
 ## [↑](#table-of-contents) Initial Access
 ### T1203 - Exploitation for Client Execution
