@@ -49,7 +49,7 @@ Table of Contents
 * [SharpUp](https://github.com/GhostPack/SharpUp) - C# port of various PowerUp functionality.
 
 
-### T1068 - Exploitation for Privilege Escalation
+### [T1068 - Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T1068/)
 * [alpc-diaghub](https://github.com/realoriginal/alpc-diaghub) - Utilizing the ALPC Flaw in combiniation with Diagnostics Hub as found in Server 2016 and Windows 10.
 
 ### T1134 - Access Token Manipulation
