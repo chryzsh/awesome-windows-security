@@ -69,8 +69,11 @@ Table of Contents
 * [SharpCradle](https://github.com/anthemtotheego/SharpCradle) - Download and execute .NET binaries into memory.
 
 ## [↑](#table-of-contents) Credential Access
-### T1208 - Kerberoasting
+### [T1208 - Kerberoasting](https://attack.mitre.org/techniques/T1208/)
 * [Rubeus](https://github.com/GhostPack/Rubeus) - C# toolset for raw Kerberos interaction and abuses.
+  * [Procedure](https://github.com/GhostPack/Rubeus) - Github page
+  * [Article](https://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/)
+ 
 
 ### T1081 - Credentials in Files
 * [KeeThief](https://github.com/HarmJ0y/KeeThief) - Methods for attacking KeePass 2.X databases, including extracting of encryption key material from memory.
