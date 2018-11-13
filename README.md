@@ -1,11 +1,10 @@
 # awesome-windows-security
-List of Awesome Windows Security Resources
+![Pirate](https://3.bp.blogspot.com/-DaVaDpv87-I/WB4SQ4hyZ7I/AAAAAAAAA6w/TamjA3s98FUmp4SXsxoDH0YeoNycV8EYgCLcB/s1600/win.jpg)
+List of awesome Windows security resources
 
+This list is for anyone wishing to learn offensive Windows security. The list will for the most part consist of tools available on Github.
 
-
-This list is for anyone wishing to learn about Windows Security, both how to offend and defend. The list will for the most part consist of tools available on Github.
-
-The tools are categorized according to Adversarial Tactics and Techniques based on [Mitre ATT&CK](https://attack.mitre.org/wiki/Main_Page). Some tools fit several categories and some doesn't quite fit anywhere. I appreciate any help with finding the right categories and techniques.
+The tools are categorized according to Adversarial Tactics and Techniques based on [Mitre ATT&CK](https://attack.mitre.org/wiki/Main_Page). Some tools fit several technqiues and some doesn't quite fit anywhere. I appreciate any help with finding the right tactics and techniques.
 
 You can contribute by sending pull requests, create issues with suggestions or write to me on Twitter [@chryzsh](https://twitter.com/chryzsh).
 
@@ -52,8 +51,10 @@ Table of Contents
 ### [T1068 - Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T1068/)
 * [alpc-diaghub](https://github.com/realoriginal/alpc-diaghub) - Utilizing the ALPC Flaw in combiniation with Diagnostics Hub as found in Server 2016 and Windows 10.
 
-### T1134 - Access Token Manipulation
+### [T1134 - Access Token Manipulation](https://attack.mitre.org/techniques/T1134/)
 * [juicy-potato](https://github.com/ohpe/juicy-potato) - Local Privilege Escalation tool, from a Windows Service Accounts to NT AUTHORITY\SYSTEM.
+  * [Procedure](https://hunter2.gitbook.io/darthsidious/privilege-escalation/juicy-potato)
+  * [Article](https://ohpe.it/juicy-potato/)
 * [Tokenvator](https://github.com/0xbadjuju/Tokenvator) - A tool to elevate privilege with Windows Tokens 
 
 
