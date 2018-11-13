@@ -30,19 +30,19 @@ Table of Contents
 * [Defense](#-defense)
 * [Twitter](#-twitter)
 
-## [↑](#table-of-contents) Initial Access
+## [↑](#table-of-contents) [Initial Access](http://attack.mitre.org/tactics/TA0001/)
 ### [T1203 - Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203)
 * [ruler](https://github.com/sensepost/ruler) - Gain shell through Exchange rules
  
-## [↑](#table-of-contents) Execution
+## [↑](#table-of-contents) [Execution](https://attack.mitre.org/tactics/TA0002/)
 ### [T1047 - Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047)
 * [SharpWMI](https://github.com/GhostPack/SharpWMI) - C# implementation of various WMI functionality.
  
-## [↑](#table-of-contents) Persistence
+## [↑](#table-of-contents) [Persistence](https://attack.mitre.org/tactics/TA0003/)
 * [WheresMyImplant](https://github.com/0xbadjuju/WheresMyImplant) - Contains the tooling nessessary to gaining and maintain access to target system. It can also be installed as WMI provider for covert long term persistence.
 
  
-## [↑](#table-of-contents) Privilege Escalation 
+## [↑](#table-of-contents) [Privilege Escalation](https://attack.mitre.org/tactics/TA0004/) 
 ### Uncategorized
 * [PowerUp](https://github.com/PowerShellMafia/PowerSploit/blob/dev/Privesc/PowerUp.ps1) - PowerUp aims to be a clearinghouse of common Windows privilege escalation vectors that rely on misconfigurations.
 * [SharpUp](https://github.com/GhostPack/SharpUp) - C# port of various PowerUp functionality.
@@ -59,7 +59,7 @@ Table of Contents
 
 
 
-## [↑](#table-of-contents) Defense Evasion
+## [↑](#table-of-contents) [Defense Evasion](https://attack.mitre.org/tactics/TA0005/)
 * [Invoke-Phant0m](https://github.com/hlldz/Invoke-Phant0m) - This script walks thread stacks of Event Log Service process (spesific svchost.exe) and identify Event Log Threads to kill Event Log Service Threads. So the system will not be able to collect logs and at the same time the Event Log Service will appear to be running.
 
 ### [T1027 - Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027)
@@ -68,7 +68,7 @@ Table of Contents
 ### [T1055 - Process Injection](https://attack.mitre.org/techniques/T1055)
 * [SharpCradle](https://github.com/anthemtotheego/SharpCradle) - Download and execute .NET binaries into memory.
 
-## [↑](#table-of-contents) Credential Access
+## [↑](#table-of-contents) [Credential Access](https://attack.mitre.org/tactics/TA0006/)
 ### [T1208 - Kerberoasting](https://attack.mitre.org/techniques/T1208/)
 * [Rubeus](https://github.com/GhostPack/Rubeus) - C# toolset for raw Kerberos interaction and abuses.
   * [Procedure](https://github.com/GhostPack/Rubeus) - Github page
@@ -101,7 +101,7 @@ Table of Contents
 * [Inveigh](https://github.com/Kevin-Robertson/Inveigh) - Windows PowerShell ADIDNS/LLMNR/mDNS/NBNS spoofer/man-in-the-middle tool.
 * [InveighZero](https://github.com/Kevin-Robertson/InveighZero) - C# LLMNR/NBNS spoofer
 
-## [↑](#table-of-contents) Discovery
+## [↑](#table-of-contents) [Discovery](https://attack.mitre.org/tactics/TA0007/)
 * [PowerView Dev Branch](https://github.com/PowerShellMafia/PowerSploit/tree/dev/Recon) - Enumerating AD with Powershell. The dev branch is specifically recommended for its ability to specify credentials using the `-Credential` option.
 * [SharpView](https://github.com/tevora-threat/SharpView) - C# implementation of harmj0y's PowerView
 * [BloodHound](https://github.com/BloodHoundAD/BloodHound) - Graphically map Active Directory environment.
@@ -117,25 +117,25 @@ Table of Contents
 * [Watson](https://github.com/rasta-mouse/Watson) - C# implementation for quickly finding missing software patches for local privilege escalation vulnerabilities.
 
 
-## [↑](#table-of-contents) Lateral Movement
+## [↑](#table-of-contents) [Lateral Movement](https://attack.mitre.org/tactics/TA0008/)
 * [Mimikatz Pass-The-Hash](https://github.com/gentilkiwi/mimikatz/wiki/module-~-sekurlsa#pth) - `mimikatz` can perform the well-known operation 'Pass-The-Hash' to run a process under another credentials with NTLM hash of the user's password, instead of its real password.
 * [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - A swiss army knife for pentesting networks
 
 
-## [↑](#table-of-contents) Collection
+## [↑](#table-of-contents) [Collection](https://attack.mitre.org/tactics/TA0009/)
 ### [T1005 - Data from Local System](https://attack.mitre.org/techniques/T1005)
 * [mimikittenz](https://github.com/putterpanda/mimikittenz) - A post-exploitation powershell tool for extracting juicy info from memory.
 * [SlackExtract](https://github.com/clr2of8/SlackExtract) - A PowerShell script to download all files, messages and user profiles that a user has access to in slack.
 
 
 
-## [↑](#table-of-contents) Exfiltration
+## [↑](#table-of-contents) [Exfiltration](https://attack.mitre.org/tactics/TA0010/)
 ### [T1048 - Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048)
 * [SharpBox](https://github.com/P1CKLES/SharpBox) - C# tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
 
 
 
-## [↑](#table-of-contents) Command and Control
+## [↑](#table-of-contents) [Command and Control](https://attack.mitre.org/tactics/TA0011/)
 * [Empire](https://github.com/EmpireProject/Empire) - Empire is a PowerShell and Python post-exploitation agent.
 * [SILENTTRINITY](https://github.com/byt3bl33d3r/SILENTTRINITY) - A post-exploitation agent powered by Python, IronPython, C#/.NET
 
@@ -179,7 +179,7 @@ Table of Contents
 ## [↑](#table-of-contents) Ebooks
 * [Advanced Penetration Testing: Hacking the World's Most Secure Networks](https://www.amazon.com/Advanced-Penetration-Testing-Hacking-Networks/dp/1119367689)
 * [Windows Internals, Part 1: System architecture, processes, threads, memory management, and more (7th Edition)](https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189)
-
+* [How to Hack Like a LEGEND: A hacker’s tale breaking into a secretive offshore company (Hacking the Planet Book 7)](https://www.amazon.com/How-Hack-Like-LEGEND-secretive-ebook/dp/B07C1GPJ19)
 
 
 ## [↑](#table-of-contents) Twitter
