@@ -31,11 +31,11 @@ Table of Contents
 * [Twitter](#-twitter)
 
 ## [↑](#table-of-contents) Initial Access
-### T1203 - Exploitation for Client Execution
+### [T1203 - Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203)
 * [ruler](https://github.com/sensepost/ruler) - Gain shell through Exchange rules
  
 ## [↑](#table-of-contents) Execution
-### T1047 - Windows Management Instrumentation
+### [T1047 - Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047)
 * [SharpWMI](https://github.com/GhostPack/SharpWMI) - C# implementation of various WMI functionality.
  
 ## [↑](#table-of-contents) Persistence
@@ -43,7 +43,7 @@ Table of Contents
 
  
 ## [↑](#table-of-contents) Privilege Escalation 
-### General
+### Uncategorized
 * [PowerUp](https://github.com/PowerShellMafia/PowerSploit/blob/dev/Privesc/PowerUp.ps1) - PowerUp aims to be a clearinghouse of common Windows privilege escalation vectors that rely on misconfigurations.
 * [SharpUp](https://github.com/GhostPack/SharpUp) - C# port of various PowerUp functionality.
 
@@ -62,10 +62,10 @@ Table of Contents
 ## [↑](#table-of-contents) Defense Evasion
 * [Invoke-Phant0m](https://github.com/hlldz/Invoke-Phant0m) - This script walks thread stacks of Event Log Service process (spesific svchost.exe) and identify Event Log Threads to kill Event Log Service Threads. So the system will not be able to collect logs and at the same time the Event Log Service will appear to be running.
 
-### T1027 - Obfuscated Files or Information
+### [T1027 - Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027)
 * [mimikatz_obfuscator.sh](https://gist.github.com/imaibou/92feba3455bf173f123fbe50bbe80781) - Obfuscation tool for Mimikatz.
 
-### T1055 - Process Injection
+### [T1055 - Process Injection](https://attack.mitre.org/techniques/T1055)
 * [SharpCradle](https://github.com/anthemtotheego/SharpCradle) - Download and execute .NET binaries into memory.
 
 ## [↑](#table-of-contents) Credential Access
@@ -75,12 +75,12 @@ Table of Contents
   * [Article](https://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/)
  
 
-### T1081 - Credentials in Files
+### [T1081 - Credentials in Files](https://attack.mitre.org/techniques/T1081)
 * [KeeThief](https://github.com/HarmJ0y/KeeThief) - Methods for attacking KeePass 2.X databases, including extracting of encryption key material from memory.
 * [SharpCloud](https://github.com/chrismaddalena/SharpCloud) - C# utility for checking for the existence of credential files related to Amazon Web Services, Microsoft Azure, and Google Compute.
 * [credgrap_ie_edge](https://github.com/HanseSecure/credgrap_ie_edge) - Extract stored credentials from Internet Explorer and Edge.
 
-### T1214 - Credentials in Registry
+### [T1214 - Credentials in Registry](https://attack.mitre.org/techniques/T1214)
 * [windows_sshagent_extract](https://github.com/ropnop/windows_sshagent_extract) - PoC code to extract private keys from Windows 10's built in ssh-agent service.
 
 ### [↑](#table-of-contents) T1110 - Brute Force
@@ -88,7 +88,7 @@ Table of Contents
 * [DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray) -  PowerShell tool to perform a password spray attack against users of a domain.
 * [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit) - Scripts to make password spraying attacks against Lync/S4B & OWA a lot quicker, less painful and more efficient
 
-### T1003 - Credential Dumping
+### [T1003 - Credential Dumping](https://attack.mitre.org/techniques/T1003)
 * [mimikatz](https://github.com/gentilkiwi/mimikatz) - Dumping credentials in Windopws
 * [Internal-Monologue](https://github.com/eladshamir/Internal-Monologue) - Retrieving NTLM Hashes without Touching LSASS.
 * [lazykatz](https://github.com/bhdresh/lazykatz) - Lazykatz is an automation developed to extract credentials from remote targets protected with AV and/or application whitelisting software.
@@ -96,7 +96,7 @@ Table of Contents
 * [Powerdump.ps1](https://github.com/rapid7/metasploit-framework/blob/master/data/exploits/powershell/powerdump.ps1) - Dumping SAM from Powershell
 
 
-### T1171 - LLMNR/NBT-NS Poisoning
+### [T1171 - LLMNR/NBT-NS Poisoning](https://attack.mitre.org/techniques/T1171)
 * [Responder](https://github.com/lgandx/Responder) - Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
 * [Inveigh](https://github.com/Kevin-Robertson/Inveigh) - Windows PowerShell ADIDNS/LLMNR/mDNS/NBNS spoofer/man-in-the-middle tool.
 * [InveighZero](https://github.com/Kevin-Robertson/InveighZero) - C# LLMNR/NBNS spoofer
@@ -107,11 +107,11 @@ Table of Contents
 * [BloodHound](https://github.com/BloodHoundAD/BloodHound) - Graphically map Active Directory environment.
 * [SharpHound](https://github.com/BloodHoundAD/SharpHound) - The BloodHound C# Ingestor
 
-### T1135 - Network Share Discovery
+### [T1135 - Network Share Discovery](https://attack.mitre.org/techniques/T1135)
 * [SmbScanner](https://github.com/vletoux/SmbScanner) - A Smb Scanner written in powershell Extracted from PingCastle and adapted to fit in a script. Checks for SMBv1 and SMBv2 (SMBv3 is a dialect of SMBv2).
 
 
-### T1082 - System Information Discovery
+### [T1082 - System Information Discovery](https://attack.mitre.org/techniques/T1082)
 * [Windows-Exploit-Suggester](https://github.com/GDSSecurity/Windows-Exploit-Suggester) - This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target. It also notifies the user if there are public exploits and Metasploit modules available for the missing bulletins.
 
 * [Watson](https://github.com/rasta-mouse/Watson) - C# implementation for quickly finding missing software patches for local privilege escalation vulnerabilities.
@@ -123,14 +123,14 @@ Table of Contents
 
 
 ## [↑](#table-of-contents) Collection
-### T1005 - Data from Local System
+### [T1005 - Data from Local System](https://attack.mitre.org/techniques/T1005)
 * [mimikittenz](https://github.com/putterpanda/mimikittenz) - A post-exploitation powershell tool for extracting juicy info from memory.
 * [SlackExtract](https://github.com/clr2of8/SlackExtract) - A PowerShell script to download all files, messages and user profiles that a user has access to in slack.
 
 
 
 ## [↑](#table-of-contents) Exfiltration
-### T1048 - Exfiltration Over Alternative Protocol
+### [T1048 - Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048)
 * [SharpBox](https://github.com/P1CKLES/SharpBox) - C# tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
 
 
