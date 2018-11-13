@@ -6,7 +6,7 @@ This list is for anyone wishing to learn offensive Windows security. The list wi
 
 The tools are categorized according to Adversarial Tactics and Techniques based on [Mitre ATT&CK](https://attack.mitre.org/wiki/Main_Page). Some tools fit several technqiues and some doesn't quite fit anywhere. I appreciate any help with finding the right tactics and techniques.
 
-You can contribute by sending pull requests, create issues with suggestions or write to me on Twitter [@chryzsh](https://twitter.com/chryzsh).
+You can contribute by sending pull requests, create issues with suggestions or write to me on Twitter [@chryzsh](https://twitter.com/chryzsh). I have made a template for adding new tools here -> [Contributing](#-contributing)
 
 
 Table of Contents
@@ -29,6 +29,7 @@ Table of Contents
 * [Ebooks](#-ebooks)
 * [Defense](#-defense)
 * [Twitter](#-twitter)
+* [Contributing](#-contributing)
 
 ## [↑](#table-of-contents) [Initial Access](http://attack.mitre.org/tactics/TA0001/)
 ### [T1203 - Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203)
@@ -190,3 +191,14 @@ Table of Contents
 * [Cn33liz - @Cneelis](https://twitter.com/Cneelis)
 * [Rasta Mouse - @_RastaMouse](https://twitter.com/_RastaMouse)
 * [SpecterOps - @SpecterOps](https://twitter.com/SpecterOps)
+
+
+## [↑](#table-of-contents) Contributing
+If you want to contribute a technique please use the following template. You are allowed to link to multiple procedures and articles for each tool
+```
+### [T1234 - Name of Technique](https://attack.mitre.org/techniques/T1234/)
+* [github-repo](https://github.com/username/github-repo) - Description from repo. Copypaste is allowed.
+  * [Procedure](https://link.to.procedure.com)
+  * [Article](https://link.to.article.com)
+
+```
