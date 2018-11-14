@@ -55,7 +55,7 @@ Table of Contents
 ### [T1134 - Access Token Manipulation](https://attack.mitre.org/techniques/T1134/)
 * [juicy-potato](https://github.com/ohpe/juicy-potato) - Local Privilege Escalation tool, from a Windows Service Accounts to NT AUTHORITY\SYSTEM.
   * [Procedure](https://hunter2.gitbook.io/darthsidious/privilege-escalation/juicy-potato)
-  * [Article](https://ohpe.it/juicy-potato/)
+  * [Article - Juicy Potato (abusing the golden privileges)](https://ohpe.it/juicy-potato/)
 * [Tokenvator](https://github.com/0xbadjuju/Tokenvator) - A tool to elevate privilege with Windows Tokens 
 
 
@@ -72,8 +72,8 @@ Table of Contents
 ## [↑](#table-of-contents) [Credential Access](https://attack.mitre.org/tactics/TA0006/)
 ### [T1208 - Kerberoasting](https://attack.mitre.org/techniques/T1208/)
 * [Rubeus](https://github.com/GhostPack/Rubeus) - C# toolset for raw Kerberos interaction and abuses.
-  * [Procedure](https://github.com/GhostPack/Rubeus) - Github page
-  * [Article](https://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/)
+  * [Procedure - Github Page](https://github.com/GhostPack/Rubeus)
+  * [Article - From Kekeo to Rubeus](https://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/)
  
 
 ### [T1081 - Credentials in Files](https://attack.mitre.org/techniques/T1081)
@@ -139,6 +139,9 @@ Table of Contents
 ## [↑](#table-of-contents) [Command and Control](https://attack.mitre.org/tactics/TA0011/)
 * [Empire](https://github.com/EmpireProject/Empire) - Empire is a PowerShell and Python post-exploitation agent.
 * [SILENTTRINITY](https://github.com/byt3bl33d3r/SILENTTRINITY) - A post-exploitation agent powered by Python, IronPython, C#/.NET
+  * [Procedure](https://hunter2.gitbook.io/darthsidious/command-and-control/silenttrinity)
+  * [Article - Writing a basic Module for SILENTTRINITY](https://davidtavarez.github.io/code/2018/10/21/writing_modules_for_silenttrinity.html)
+  * [Article - The Rise of C# and using Kali as a C2 Server with SILENTTRINITY](https://hausec.com/2018/10/12/the-rise-of-c-and-using-kali-as-a-c2-server-with-silenttrinity/)     
 
 ## [↑](#table-of-contents) Defense
 * [awesome-windows-domain-hardening](https://github.com/PaulSec/awesome-windows-domain-hardening) - A curated list of awesome Security Hardening techniques for Windows.
