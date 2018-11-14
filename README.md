@@ -83,7 +83,7 @@ Table of Contents
 
 ### [T1214 - Credentials in Registry](https://attack.mitre.org/techniques/T1214)
 * [windows_sshagent_extract](https://github.com/ropnop/windows_sshagent_extract) - PoC code to extract private keys from Windows 10's built in ssh-agent service.
-  *[Procedure / Article](https://blog.ropnop.com/extracting-ssh-private-keys-from-windows-10-ssh-agent/) 
+  * [Procedure / Article](https://blog.ropnop.com/extracting-ssh-private-keys-from-windows-10-ssh-agent/) 
 
 ### [↑](#table-of-contents) T1110 - Brute Force
 * [MailSniper](https://github.com/dafthack/MailSniper) - Searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.)
