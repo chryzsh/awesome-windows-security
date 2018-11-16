@@ -61,6 +61,11 @@ Table of Contents
 
 
 ## [↑](#table-of-contents) [Defense Evasion](https://attack.mitre.org/tactics/TA0005/)
+### AMSI bypassing
+* [Article - Oh No! AMSI blocked the AMSI Bypass! What now?](https://0x00-0x00.github.io/research/2018/11/09/Oh-No!-Amsi-blocked-the-bypass.html) - Works on W10 1803 - 09.11.18
+* [Article - AmsiScanBuffer Bypass - Part 1](https://rastamouse.me/2018/10/amsiscanbuffer-bypass---part-1/) - Works on W10 1803 - 01.11.18
+
+### Log removal
 * [Invoke-Phant0m](https://github.com/hlldz/Invoke-Phant0m) - This script walks thread stacks of Event Log Service process (spesific svchost.exe) and identify Event Log Threads to kill Event Log Service Threads. So the system will not be able to collect logs and at the same time the Event Log Service will appear to be running.
 
 ### [T1089 - Disabling Security Tools](https://attack.mitre.org/techniques/T1089/)
@@ -69,6 +74,7 @@ Table of Contents
 
 ### [T1027 - Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027)
 * [mimikatz_obfuscator.sh](https://gist.github.com/imaibou/92feba3455bf173f123fbe50bbe80781) - Obfuscation tool for Mimikatz.
+
 
 ### [T1055 - Process Injection](https://attack.mitre.org/techniques/T1055)
 * [SharpCradle](https://github.com/anthemtotheego/SharpCradle) - Download and execute .NET binaries into memory.
@@ -89,7 +95,7 @@ Table of Contents
 * [windows_sshagent_extract](https://github.com/ropnop/windows_sshagent_extract) - PoC code to extract private keys from Windows 10's built in ssh-agent service.
   * [Procedure / Article](https://blog.ropnop.com/extracting-ssh-private-keys-from-windows-10-ssh-agent/) 
 
-### [↑](#table-of-contents) T1110 - Brute Force
+### [T1110 - Brute Force](https://attack.mitre.org/techniques/T1110)
 * [MailSniper](https://github.com/dafthack/MailSniper) - Searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.)
 * [DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray) -  PowerShell tool to perform a password spray attack against users of a domain.
 * [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit) - Scripts to make password spraying attacks against Lync/S4B & OWA a lot quicker, less painful and more efficient
