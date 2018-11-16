@@ -87,13 +87,13 @@ Table of Contents
  
 
 ### [T1081 - Credentials in Files](https://attack.mitre.org/techniques/T1081)
-* [KeeThief](https://github.com/HarmJ0y/KeeThief) - Methods for attacking KeePass 2.X databases, including extracting of encryption key material from memory.
+* [KeeThief](https://github.com/HarmJ0y/KeeThief) - Methods for attacking KeePass 2.X databases, including ing of encryption key material from memory.
 * [SharpCloud](https://github.com/chrismaddalena/SharpCloud) - C# utility for checking for the existence of credential files related to Amazon Web Services, Microsoft Azure, and Google Compute.
 * [credgrap_ie_edge](https://github.com/HanseSecure/credgrap_ie_edge) - Extract stored credentials from Internet Explorer and Edge.
 
 ### [T1214 - Credentials in Registry](https://attack.mitre.org/techniques/T1214)
 * [windows_sshagent_extract](https://github.com/ropnop/windows_sshagent_extract) - PoC code to extract private keys from Windows 10's built in ssh-agent service.
-  * [Procedure / Article](https://blog.ropnop.com/extracting-ssh-private-keys-from-windows-10-ssh-agent/) 
+  * [Procedure / Article - Extracting SSH Private Keys from Windows 10 ssh-agent](https://blog.ropnop.com/extracting-ssh-private-keys-from-windows-10-ssh-agent/) 
 
 ### [T1110 - Brute Force](https://attack.mitre.org/techniques/T1110)
 * [MailSniper](https://github.com/dafthack/MailSniper) - Searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.)
@@ -137,7 +137,7 @@ Table of Contents
 ## [↑](#table-of-contents) [Collection](https://attack.mitre.org/tactics/TA0009/)
 ### [T1005 - Data from Local System](https://attack.mitre.org/techniques/T1005)
 * [mimikittenz](https://github.com/putterpanda/mimikittenz) - A post-exploitation powershell tool for extracting juicy info from memory.
-* [SlackExtract](https://github.com/clr2of8/SlackExtract) - A PowerShell script to download all files, messages and user profiles that a user has access to in slack.
+* [SlackExtract](https://github.com/clr2of8/Slack) - A PowerShell script to download all files, messages and user profiles that a user has access to in slack.
 
 
 
