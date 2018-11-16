@@ -63,6 +63,10 @@ Table of Contents
 ## [↑](#table-of-contents) [Defense Evasion](https://attack.mitre.org/tactics/TA0005/)
 * [Invoke-Phant0m](https://github.com/hlldz/Invoke-Phant0m) - This script walks thread stacks of Event Log Service process (spesific svchost.exe) and identify Event Log Threads to kill Event Log Service Threads. So the system will not be able to collect logs and at the same time the Event Log Service will appear to be running.
 
+### [T1089 - Disabling Security Tools](https://attack.mitre.org/techniques/T1089/)
+* [Procedure - Remotely Enumerate Anti-Virus Configurations](https://www.fortynorthsecurity.com/remotely-enumerate-anti-virus-configurations/)
+* [Procedure - Remotely Modify Anti-Virus Configurations](https://www.fortynorthsecurity.com/remotely-modify-anti-virus-configurations/)
+
 ### [T1027 - Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027)
 * [mimikatz_obfuscator.sh](https://gist.github.com/imaibou/92feba3455bf173f123fbe50bbe80781) - Obfuscation tool for Mimikatz.
 
@@ -133,16 +137,21 @@ Table of Contents
 
 ## [↑](#table-of-contents) [Exfiltration](https://attack.mitre.org/tactics/TA0010/)
 ### [T1048 - Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048)
-* [SharpBox](https://github.com/P1CKLES/SharpBox) - C# tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
+* [SharpBox](https://github.com/P1CKLES/SharpBox) - C# tool for compressing, encrypting, and exfiltrating data to using the DropBox API.
 
 
 
 ## [↑](#table-of-contents) [Command and Control](https://attack.mitre.org/tactics/TA0011/)
+### Frameworks
 * [Empire](https://github.com/EmpireProject/Empire) - Empire is a PowerShell and Python post-exploitation agent.
 * [SILENTTRINITY](https://github.com/byt3bl33d3r/SILENTTRINITY) - A post-exploitation agent powered by Python, IronPython, C#/.NET
   * [Procedure](https://hunter2.gitbook.io/darthsidious/command-and-control/silenttrinity)
   * [Article - Writing a basic Module for SILENTTRINITY](https://davidtavarez.github.io/code/2018/10/21/writing_modules_for_silenttrinity.html)
-  * [Article - The Rise of C# and using Kali as a C2 Server with SILENTTRINITY](https://hausec.com/2018/10/12/the-rise-of-c-and-using-kali-as-a-c2-server-with-silenttrinity/)     
+  * [Article - The Rise of C# and using Kali as a C2 Server with SILENTTRINITY](https://hausec.com/2018/10/12/the-rise-of-c-and-using-kali-as-a-c2-server-with-silenttrinity/)
+* [Cobalt Strike](https://www.cobaltstrike.com) - Software for Adversary Simulations and Red Team Operations.
+
+### [T1102 - Web Service](https://attack.mitre.org/techniques/T1102/)
+  * [Article - Cobaltstrike Over External C2 via Dropbox](https://truneski.github.io/blog/2018/11/05/cobaltstrike-over-external-c2-via-dropbox/)
 
 ## [↑](#table-of-contents) Defense
 * [awesome-windows-domain-hardening](https://github.com/PaulSec/awesome-windows-domain-hardening) - A curated list of awesome Security Hardening techniques for Windows.
