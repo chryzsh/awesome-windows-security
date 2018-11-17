@@ -137,7 +137,7 @@ Table of Contents
 ## [↑](#table-of-contents) [Collection](https://attack.mitre.org/tactics/TA0009/)
 ### [T1005 - Data from Local System](https://attack.mitre.org/techniques/T1005)
 * [mimikittenz](https://github.com/putterpanda/mimikittenz) - A post-exploitation powershell tool for extracting juicy info from memory.
-* [SlackExtract](https://github.com/clr2of8/Slack) - A PowerShell script to download all files, messages and user profiles that a user has access to in slack.
+* [SlackExtract](https://github.com/clr2of8/SlackExtract) - A PowerShell script to download all files, messages and user profiles that a user has access to in slack.
 
 
 
