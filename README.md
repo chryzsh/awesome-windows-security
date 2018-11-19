@@ -64,6 +64,7 @@ Table of Contents
 ### AMSI bypassing
 * [Article - Oh No! AMSI blocked the AMSI Bypass! What now?](https://0x00-0x00.github.io/research/2018/11/09/Oh-No!-Amsi-blocked-the-bypass.html) - Works on W10 1803 - 09.11.18
 * [Article - AmsiScanBuffer Bypass - Part 1](https://rastamouse.me/2018/10/amsiscanbuffer-bypass---part-1/) - Works on W10 1803 - 01.11.18
+* [Article - Undetectable C# & C++ Reverse Shells](https://medium.com/@Bank_Security/undetectable-c-c-reverse-shells-fab4c0ec4f15)
 
 ### Log removal
 * [Invoke-Phant0m](https://github.com/hlldz/Invoke-Phant0m) - This script walks thread stacks of Event Log Service process (spesific svchost.exe) and identify Event Log Threads to kill Event Log Service Threads. So the system will not be able to collect logs and at the same time the Event Log Service will appear to be running.
@@ -130,14 +131,15 @@ Table of Contents
 
 
 ## [↑](#table-of-contents) [Lateral Movement](https://attack.mitre.org/tactics/TA0008/)
-* [Mimikatz Pass-The-Hash](https://github.com/gentilkiwi/mimikatz/wiki/module-~-sekurlsa#pth) - `mimikatz` can perform the well-known operation 'Pass-The-Hash' to run a process under another credentials with NTLM hash of the user's password, instead of its real password.
-* [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - A swiss army knife for pentesting networks
+* [Procedure - Mimikatz Pass-The-Hash](https://github.com/gentilkiwi/mimikatz/wiki/module-~-sekurlsa#pth) - `mimikatz` can perform the well-known operation 'Pass-The-Hash' to run a process under another credentials with NTLM hash of the user's password, instead of its real password.
+* [Tool - CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - A swiss army knife for pentesting networks
+* [Article - A Red Teamer's guide to pivoting](https://artkond.com/2017/03/23/pivoting-guide/)
 
 
 ## [↑](#table-of-contents) [Collection](https://attack.mitre.org/tactics/TA0009/)
 ### [T1005 - Data from Local System](https://attack.mitre.org/techniques/T1005)
-* [mimikittenz](https://github.com/putterpanda/mimikittenz) - A post-exploitation powershell tool for extracting juicy info from memory.
-* [SlackExtract](https://github.com/clr2of8/SlackExtract) - A PowerShell script to download all files, messages and user profiles that a user has access to in slack.
+* [Tool - mimikittenz](https://github.com/putterpanda/mimikittenz) - A post-exploitation powershell tool for extracting juicy info from memory.
+* [Tool - SlackExtract](https://github.com/clr2of8/SlackExtract) - A PowerShell script to download all files, messages and user profiles that a user has access to in slack.
 
 
 
