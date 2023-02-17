@@ -167,6 +167,7 @@ Table of Contents
 * [Seatbelt](https://github.com/GhostPack/Seatbelt) - Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
 * [Pingcastle](https://github.com/vletoux/pingcastle) - Ping Castle is a tool designed to assess quickly the Active Directory security level with a methodology based on risk assessment and a maturity framework.
 * [WindowsDefenderATP-Hunting-Queries](https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries) - Sample queries for Advanced hunting in Windows Defender ATP
+* [cnspec](https://cnspec.io) - Find vulnerabilities and misconfigurations on Windows hosts + more.
 
 
 ## [↑](#table-of-contents) Misc
